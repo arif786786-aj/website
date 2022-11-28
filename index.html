@@ -2,842 +2,401 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>BS Stocks</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zee Stocks</title>
+  <link href="/dist/output.css" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<!doctype html>
+<html>
 
-    <!-- Favicon -->
-    <link href="img/logo.png" rel="icon">
-
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
-        rel="stylesheet">
-
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!-- Spinner Start -->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
+  <!-- Navbar -->
+  <div class="drawer">
+    <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+    <div class="drawer-content flex flex-col">
+      <div class="w-full navbar bg-[#3a1970]">
+        <div class="flex-none lg:hidden">
+          <label for="my-drawer-3" class="btn btn-square btn-ghost">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" style="stroke: #FFF;" viewBox="0 0 24 24"
+              class="inline-block w-6 h-6 stroke-current">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </label>
         </div>
+
+        <div class="flex-row items-center justify-start flex-1 px-2 mx-2 text-white">
+          <img class="mr-4" style="width: 40px; height:40px; object-fit:contain;" src="./img/logo.jpeg" alt="Logo">
+          <div class="flex flex-col items-start justify-start">
+            <h1 class="text-xl font-semibold">Zee Stocks</h1>
+            <h5>Trade Like a Pro</h5>
+          </div>
+        </div>
+
+        <div class="flex-none hidden lg:block">
+          <ul class="menu menu-horizontal">
+            <!-- Navbar menu content here -->
+            <li class="text-white"><a>About</a></li>
+            <li class="text-white"><a>Testimonials</a></li>
+            <li class="text-white"><a>Join Now</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Page content here -->
+      <!-- Hero Section -->
+      <section style="background: url('./img/herobg.png') center/cover no-repeat;">
+        <div class="md:flex md:flex-col md:p-16 py-16 px-4 md:h-[120vh] h-auto justify-around items-center"
+          style="background: rgba(0,0,0,0.6);">
+          <div class="flex flex-col items-center justify-center">
+            <h1 class="font-[Poppins] text-white font-semibold text-4xl md:text-6xl text-center">
+              JOIN OUR TELEGRAM CHANNEL NOW
+            </h1>
+            <br>
+            <p class="text-center text-2xl text-white">
+              Trade in Bank Nifty & Nifty by following our calls given
+              by our experts on our Free Telegram Channel ! With Unbeatable Accuracy
+            </p>
+            <br>
+            <a href="#"
+              class="px-16 py-4 bg-[#14bf98] rounded-lg hover:bg-transparent border-transparent border-2 hover:text-white hover:border-2 hover:border-white">Join
+              now</a>
+          </div>
+          <!-- <div class="flex flex-col items-center justify-center">
+            <h1 class="font-[Poppins] text-white font-semibold text-4xl md:text-6xl text-center">
+              JOIN OUR TELEGRAM CHANNEL NOW
+            </h1>
+            <p class="text-center p-8 text-2xl text-white">
+              Trade in Bank Nifty & Nifty by following our calls given
+              by our experts on our Free Telegram Channel ! With Unbeatable Accuracy
+            </p>
+            <a href="#"
+              class="px-16 py-4 bg-[#14bf98] rounded-lg hover:bg-transparent hover:text-white hover:border-2 hover:border-white">Join
+              now</a>
+          </div> -->
+        </div>
+
+      </section>
+      <!-- Hero Section -->
+
+
+      <section class="bg-[#7743DB]">
+        <div
+          class="md:flex md:flex-row flex-col md:p-16 px-6 py-4 h-auto items-center justify-center md:justify-around">
+          <div class="flex flex-col items-start justify-start max-w-md">
+            <h1 class="text-white font-[Poppins] text-3xl mt-16 font-bold text-start md:text-2xl">
+              We Provide Daily Calls On Telegram With 90-95% Accuracy
+            </h1>
+            <p class="text-white font-light text-lg mt-4 text-left">
+              We do all the hard work for you. Simply follow the signals provided by our professional traders.
+              <br><br>
+              India's One of the Best Channel for Stock Market Service.
+              <br><br>
+              Super jackpot call in Banknifty/Nifty.
+              <br><br>
+              Highly assured research by Raj.
+              <br>
+            </p>
+            <ul class="list-disc mt-3">
+              <li class="ml-4 text-white font-light">Capital Required : 10-20K</li>
+              <li class="ml-4 text-white font-light">Daily Profit 5000-10000</li>
+              <li class="ml-4 text-white font-light">RISK : REWARD 1:3,7++</li>
+              <li class="ml-4 text-white font-light">Daily 1-2 Free Sure Shot Calls</li>
+            </ul>
+            <p class="text-lg mt-4 text-left text-white font-light">Make Consistently Huge Profit and Highly Impressive
+              Returns with Low Risk
+              Investment.</p>
+
+          </div>
+          <div class="flex h-max flex-col items-center justify-center">
+            <img class="mx-auto mt-4 w-auto h-72 md:mt-0" style="filter: invert(1);" src="./img/hyperlink.png" alt="">
+            <a class="bg-[#3B3486] text-white transition-all duration-300 ease-linear hover:bg-blue-600 mt-8 md:mt-16 px-8 py-3 rounded-full"
+              href="#">Free Trial Click Here</a>
+          </div>
+        </div>
+      </section>
+
+
+      <section class=" bg-white">
+        <div class="md:flex md:flex-col md:p-16 p-4 h-auto justify-center items-center">
+          <h1 class="font-[Poppins] font-semibold text-4xl md:text-4xl text-center">
+            Read Our Customer Reviews
+          </h1>
+          <p class="text-center md:max-w-[80%] p-4 text-lg">
+            Our clients are our partners and we can not imagine a better future for our company without helping them
+            reach their objectives.
+          </p>
+          <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full h-auto">
+              <img src="https://placeimg.com/800/360/arch" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="https://placeimg.com/800/360/arch" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="https://placeimg.com/800/360/arch" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="https://placeimg.com/800/360/arch" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class=" bg-white">
+        <div
+          class="md:flex md:flex-row flex-col md:p-16 px-6 py-4 h-auto items-center justify-center md:justify-between">
+          <div class="flex flex-col items-start justify-start max-w-md">
+            <h1 class="font-[Poppins] text-3xl mt-16 font-bold text-start md:text-2xl">
+              We Offer Some Of The Best Stock Market Growth Services In Stock Market
+            </h1>
+            <p class="text-lg mt-4 text-left">
+              Launching a new company or developing the market position of an existing one can be quite an overwhelming
+              processs at times.
+              <br><br>
+              <i>"Our mission here at Intraday Jackpot is to make you the part of 5% traders who alwasy makes money in
+                market."</i>
+
+            <p class="text-lg mt-4 font-bold text-left">Akshay Raj - CEO</p>
+
+          </div>
+          <div class="flex h-max flex-col items-center justify-center">
+            <img class="mx-auto mt-4 md:mt-0" src="https://intradayjackpot.net/images/1.jpg" alt="">
+          </div>
+        </div>
+      </section>
+
+      <div class="flex flex-row flex-wrap items-center justify-around my-16">
+        <div class="m-4 md:m-0 flex flex-col w-72">
+          <img class="w-20 h-20" src="img/research.png" />
+          <h1 class="mt-5 font-bold">Market Analysis</h1>
+          <p class="mt-3 font-light">The starting point is to knowing your current position in the Stock Market</p>
+        </div>
+        <div class="m-4 md:m-0 flex flex-col w-72">
+          <img class="w-20 h-20" src="img/schedule.png" />
+          <h1 class="mt-5 font-bold">Strategy Planning</h1>
+          <p class="mt-3 font-light">After completing the market analysis the next stage is to design and plan your
+            stock strategies</p>
+        </div>
+        <div class="m-4 md:m-0 flex flex-col w-72">
+          <img class="w-20 h-20" src="img/process.png" />
+          <h1 class="mt-5 font-bold">Execution & Evaluation</h1>
+          <p class="mt-3 font-light">In this phase we will focus on executing the stock plan and evaluating the results
+            after the market, every day</p>
+        </div>
+      </div>
+
+      <section class="h-auto bg-white">
+        <div class="md:flex  md:flex-row flex-col h-auto items-center justify-center md:justify-between">
+          <div class="flex flex-col items-center justify-center w-full h-[80vh]"
+            style="background: url('https://media.istockphoto.com/id/1443437659/photo/investing-analysis-inflation-economic-chart-tradingview.jpg?b=1&s=170667a&w=0&k=20&c=vxwqh4RZ0zb3KoJrP2NJYlYdmkoivcJNXiHM4eiqHLk=') center/cover no-repeat;">
+
+          </div>
+          <div class="flex flex-col items-start justify-start px-12 w-full py-12 md:py-0">
+            <h1 class="font-[Poppins] text-3xl font-bold text-start md:text-2xl">
+              Accelerate Your Profit
+            </h1>
+            <div class="collapse">
+              <input type="checkbox" />
+              <div class="collapse-title  text-2xl font-medium">
+                <h1 class="hover:text-green-300">
+                  How Can We Help For Your Profits
+                </h1>
+              </div>
+              <div class="ml-4">
+                <p>Join our FREE Telegram channel where we provide signals with more than 90% accuracy.
+                </p>
+              </div>
+            </div>
+
+            <div class="collapse">
+              <input type="checkbox" />
+              <div class="collapse-title  text-2xl font-medium">
+                <h1 class="hover:text-green-300">
+                  Great Strategies & Planning
+                </h1>
+              </div>
+              <div class="ml-4">
+                <p>We do all the hard work for you. Simply copy the signals provided by our professional traders.
+                </p>
+              </div>
+            </div>
+
+            <div class="collapse">
+              <input type="checkbox" />
+              <div class="collapse-title  text-2xl font-medium">
+                <h1 class="hover:text-green-300">
+                  Trade Like A Pro
+                </h1>
+              </div>
+              <div class="ml-4">
+                <p>With our unbeatable accuracy, you will be able to trade like a pro, the sky is the limit for what can
+                  be achieved.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="h-auto bg-white">
+        <div class="flex md:flex-row-reverse flex-col items-start justify-center md:justify-between">
+          <div class="flex flex-col items-center justify-center w-full h-[80vh]"
+            style="background: url('https://images.unsplash.com/photo-1620266757065-5814239881fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dHJhZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=6') center/cover no-repeat;">
+          </div>
+          <div class="flex flex-col items-start px-12 pt-24 pb-8 mt-0 justify-start w-full">
+            <h1 class="font-[Poppins] text-3xl font-bold text-start md:text-2xl">
+              We Offer Some Of The Best Stock Market Growth Services In Stock Market
+            </h1>
+            <div class="tab-container mt-5">
+              <div class="tab-menu w-full mb-8">
+                <ul>
+                  <li><a href="#" class="tab-a my-4 active-a" data-id="tab1">Stocks</a></li>
+                  <li><a href="#" class="tab-a my-4 mx-4 mf:mx-8" data-id="tab2">Expertise</a></li>
+                  <li><a href="#" class="tab-a my-4 " data-id="tab3">Quality</a></li>
+                </ul>
+              </div>
+              <!--end of tab-menu-->
+              <div class="tab tab-active mt-2" data-id="tab1">
+                <h2 class="text-start text-xl font-semibold">Stock Signals For Customers</h2>
+                <p class="w-76 text-start">Get ready to Be Part of 5% Traders Who Always Make Money in Stock Markets.
+                  Profits guaranteed!</p><br>
+                <p class="w-full text-left font-semibold">Customer Satisfaction 100%</p>
+                <progress class="relative progress progress-primary h-4 w-full mb-2" value="100"
+                  max="100"></progress><br>
+                <p class="w-full text-left font-semibold">Stock Accuracy 95%</p>
+                <progress class="relative progress progress-primary h-4 w-full mb-4" value="95" max="100"></progress>
+              </div>
+              <!--end of tab one-->
+
+              <div class="tab mt-2" data-id="tab2">
+                <div class="flex flex-col md:flex-row items-start justify-between">
+                  <div class="flex flex-col">
+                    <p class="text-start w-44"><b>Real Time Stock Tips,</b> Follow Ups and Market Updates</p>
+                    <p class="text-start w-44"><b>Target and Stoploss</b> is provided for each and every call</p>
+                    <p class="text-start w-32"><b>Risk:Reward Ratio</b> Long Target and Small Stoploss</p>
+                  </div>
+                  <div class="flex flex-col">
+                    <p class="text-start w-44"><b>Loss Recovery</b> We Will Help you to Recover Your Losses</p>
+                    <p class="text-start w-44"><b>Dedicated Support</b> for all the customers will be given</p>
+                    <p class="text-start w-44"><b>Ethic</b> procedures are alwasy at the base of everything we do</p>
+                  </div>
+                </div>
+              </div>
+              <!--end of tab two-->
+              <div class="tab mt-2" data-id="tab3">
+                <div class="flex flex-col items-start justify-start max-w-md">
+                  <h1 class="font-[Poppins] text-3xl mt-4 font-bold text-start md:text-2xl">
+                    Contact Us For Your Better Profits
+                  </h1>
+                  <p class="text-lg mt-4 text-left">
+                    India's One of the Best Channel for Stock Market Service
+                    <br>
+                  </p>
+                  <ul class="list-disc mt-3">
+                    <li class="ml-4 text-start">Your search for consistent profitability from trading ends here.</li>
+                    <li class="ml-4 text-start">If you dont find a way to make money while you sleep, You will work till
+                      you die.</li>
+                    <li class="ml-4 text-start">Take the best trading opportunity.</li>
+                  </ul>
+                </div>
+              </div>
+              <!--end of tab three-->
+            </div>
+            <!--end of container-->
+          </div>
+        </div>
+      </section>
+
+      <section class=" bg-[#7743DB]">
+        <div
+          class="md:flex md:flex-row flex-col md:p-16 px-6 py-4 h-auto items-center justify-center md:justify-around">
+          <div class="flex flex-col items-start justify-start max-w-md">
+            <h1 class="font-[Poppins] text-white text-3xl mt-16 font-bold text-start md:text-2xl">
+              Contact Us For Your Better Profits
+            </h1>
+            <p class="text-lg mt-4 text-white text-left">
+              India's One of the Best Channel for Stock Market Service
+              <br>
+            </p>
+            <ul class="list-disc mt-3">
+              <li class="ml-4 text-white">Your search for consistent profitability from trading ends here.</li>
+              <li class="ml-4 text-white">If you dont find a way to make money while you sleep, You will work till you
+                die.</li>
+              <li class="ml-4 text-white">Take the best trading opportunity.</li>
+            </ul>
+          </div>
+          <div class="flex h-max flex-col items-center justify-center">
+            <a class="bg-blue-800 text-white transition-all duration-300 ease-linear hover:bg-blue-600 mt-8 md:mt-16 px-16 py-3 rounded-xl"
+              href="#">Free Trial Click Here</a>
+          </div>
+        </div>
+      </section>
+
     </div>
-    <!-- Spinner End -->
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
-        <a href="index.html" class="navbar-brand d-flex align-items-center">
-            <h2 class="m-0 text-black"> <img src="/img/logo.png" alt="" width="60px"> BS Stocks</h2>
-        </a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto py-4 py-lg-0">
-                <a href="#xyz" class="nav-item nav-link">About Us</a>
-                <a href="https://t.me/+tqhy9hD7HagyOGFl" class="nav-item nav-link">Join Now</a>
-            </div>
-        </div>
-    </nav>
-    <!-- Navbar End -->
+    <div class="drawer-side">
+      <label for="my-drawer-3" class="drawer-overlay"></label>
+      <ul class="menu p-4 w-80 bg-base-100">
+        <!-- Sidebar content here -->
+        <li><a>About</a></li>
+        <li><a>Testimonials</a></li>
+        <li><a>Join Now</a></li>
 
+      </ul>
 
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 pb-5">
-        <div class="owl-carousel header-carousel position-relative">
-            <!--     <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/hero-1.png" alt="">
-                <div class="carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 text-center">
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Trade Without Fear</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Remove the fear of loss in the trades because we make your trade profitable, Let's make your trading experience next level with BS Stocks.</p>
-                                <a href="https://t.me/+tqhy9hD7HagyOGFl" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Join Now</a>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/hero-2.jpg" alt="">
-                <div class="carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 text-center">
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Trade Without Fear</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Remove the fear of loss in the trades because we make your trade profitable, Let's make your trading experience next level with BS Stocks.</p>
-                                <a href="https://t.me/+tqhy9hD7HagyOGFl" class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Join Now</a>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <div class="owl-carousel-item position-relative" style="height: 85vh !important;">
-                <img class="img-fluid" src="img/hero-main.jpg" alt="">
-                <div class="carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 text-center">
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Trading Is Easy.<br>Beleive
-                                    Us.</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Trading is a game of discipline and
-                                    probability. If you're scared of results, you're doing it wrong way. Join us and
-                                    we'll help you learn & earn!</p>
-                                <a href="https://t.me/+tqhy9hD7HagyOGFl"
-                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Join
-                                    Now</a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
-    <!-- Carousel End -->
-
-
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center">
-                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
-                <h1 class="display-5 mb-5">Nifty, Banknifty & Jackpot Calls</h1>
-            </div>
-            <div class="row g-0 service-row">
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="service-item border h-100 p-5">
-                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/coins.png" alt="Icon">
-                        </div>
-                        <h4 class="mb-3">Nifty</h4>
-                        <p class="mb-4">Get best buy and sell calls for Nifty stocks!</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="service-item border h-100 p-5">
-                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/bank.png" alt="Icon">
-                        </div>
-                        <h4 class="mb-3">Banknifty</h4>
-                        <p class="mb-4">Get best buy and sell calls for Banknifty stocks!</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="service-item border h-100 p-5">
-                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/trophy.png" alt="Icon">
-                        </div>
-                        <h4 class="mb-3">Jackpot Calls</h4>
-                        <p class="mb-4">Get amazing jackpot calls frequently in our Telegram group!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Facts Start -->
-    <h1 style="text-align: center;">Why To Believe Us?</h1>
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="h-100 bg-dark p-4 p-xl-5">
-                        <div class="d-flex align-items-center justify-content-between mb-4">
-                            <div class="btn-square rounded-circle"
-                                style="width: 64px; height: 64px; background: #000000;">
-                                <img class="img-fluid" src="img/icon/icon-1.png" alt="Icon">
-                            </div>
-                            <h1 class="display-1 mb-0" style="color: #000000;">01</h1>
-                        </div>
-                        <h5 class="text-white">Personalised Analysis</h5>
-                        <hr class="w-25">
-                        <span>We support traders in Intra-day/Short Term/Positional trading.</span>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="h-100 bg-dark p-4 p-xl-5">
-                        <div class="d-flex align-items-center justify-content-between mb-4">
-                            <div class="btn-square rounded-circle"
-                                style="width: 64px; height: 64px; background: #000000;">
-                                <img class="img-fluid" src="img/icon/icon-4.png" alt="Icon">
-                            </div>
-                            <h1 class="display-1 mb-0" style="color: #000000;">02</h1>
-                        </div>
-                        <h5 class="text-white">Accurate Calls</h5>
-                        <hr class="w-25">
-                        <span>Our members get more than 95% accurate buy & sell signals.</span>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="h-100 bg-dark p-4 p-xl-5">
-                        <div class="d-flex align-items-center justify-content-between mb-4">
-                            <div class="btn-square rounded-circle"
-                                style="width: 64px; height: 64px; background: #000000;">
-                                <img class="img-fluid" src="img/icon/icon-2.png" alt="Icon">
-                            </div>
-                            <h1 class="display-1 mb-0" style="color: #000000;">03</h1>
-                        </div>
-                        <h5 class="text-white">Consistent</h5>
-                        <hr class="w-25">
-                        <span>We are disciplined and patient traders and we know what we're doing.</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Facts Start -->
-
-
-    <!-- About Start -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
-        <div class="container about px-lg-0">
-            <div class="row g-0 mx-lg-0" id="xyz">
-                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg"
-                            style="object-fit: cover;" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 pe-lg-0">
-                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
-                        <h1 class="display-5 mb-4">About Us</h1>
-                        <p class="mb-4 pb-2">Join our FREE Telegram channel, where we provide signals with more than 95%
-                            accuracy. We do all the hard work for you. Simply copy the signals provided by our
-                            professional traders. Our Mission is to make everyone financially independent using the
-                            right technical analysis, so they can generate continuous income from trading stocks with
-                            our training programs. BS Stocks has a following of more than 12,000+ Members who are
-                            getting benefited from us on a daily basis.</p>
-                        <div class="row g-4 mb-4 pb-3">
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                                <div class="d-flex align-items-center">
-                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
-                                        <img class="img-fluid" src="img/icon/feedback.png" alt="Icon">
-                                    </div>
-                                    <div class="ms-4">
-                                        <h2 class="mb-1" data-toggle="counter-up">12000</h2>
-                                        <p class="fw-medium text-primary mb-0">Satisfied Members</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                                <div class="d-flex align-items-center">
-                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
-                                        <img class="img-fluid" src="img/icon/protection.png" alt="Icon">
-                                    </div>
-                                    <div class="ms-4">
-                                        <h2 class="mb-1" data-toggle="counter-up">5</h2>
-                                        <p class="fw-medium text-primary mb-0">Years experience</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="https://t.me/+tqhy9hD7HagyOGFl" class="btn btn-primary rounded-pill py-3 px-5">Join
-                            Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center">
-                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
-                <h1 class="display-5 mb-5">Our Services</h1>
-            </div>
-            <div class="row g-0 service-row">
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="service-item border h-100 p-5">
-                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/coins.png" alt="Icon">
-                        </div>
-                        <h4 class="mb-3">Investing</h4>
-                        <p class="mb-4"><b>Nifty</b>, Index, Equity, <b>Bank Nifty</b>.</p>
-                        <!-- <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Join Now</a> -->
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="service-item border h-100 p-5">
-                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/stock-market.png" alt="Icon">
-                        </div>
-                        <h4 class="mb-3">Stocks</h4>
-                        <p class="mb-4">Stock Future, Stock Options, Commodity.</p>
-                        <!-- <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a> -->
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="service-item border h-100 p-5">
-                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/bar-graph.png" alt="Icon">
-                        </div>
-                        <h4 class="mb-3">Analysis</h4>
-                        <p class="mb-4">Technical Analysis, Fundamental Analysis.</p>
-                        <!-- <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a> -->
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="service-item border h-100 p-5">
-                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/aim.png" alt="Icon">
-                        </div>
-                        <h4 class="mb-3">Accurate Calls</h4>
-                        <p class="mb-4">Option Calls, Sureshot Calls, <b>Jackpot Calls</b></p>
-                        <!-- <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
-
-
-    <!-- Demat Start -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
-        <div class="container about px-lg-0">
-            <div class="row g-0 mx-lg-0" id="xyz">
-                <div class="col-lg-6 ps-lg-0" style="min-height: 400px; background: #FFF;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="https://startupreporter.in/wp-content/uploads/2021/08/AngelBrokingLogo-7416e6a7-scaled.jpg"
-                            style="object-fit: contain;" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 pe-lg-0">
-                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
-                        <h1 class="display-5 mb-4">Start Trading Today</h1>
-                        <p class="mb-4 pb-2">
-                            Trading involves lots of courageous decisions and to help you in this journey, you need a reliable trading platform.
-                            We recommend using <b>Angel One</b>. It's one of the biggest trading platform that's being used by over 1 Crore users nationwide.
-                            Take your first step and start your trading journey today with <b>Angel One</b>.
-                        </p>
-                        <a href="https://t.me/+tqhy9hD7HagyOGFl" class="btn btn-primary rounded-pill py-3 px-5">Open Demat Account</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Demat End -->
-
-
-    <!-- Feature Start -->
-    <!-- <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
-        <div class="container feature px-lg-0">
-            <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 ps-lg-0">
-                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
-                        <h1 class="display-5 mb-5">Why Choose Us</h1>
-                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
-                        <div class="row g-4">
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
-                                        <img class="img-fluid" src="img/icon/icon-7.png" alt="Icon">
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="text-primary mb-2">Trusted</p>
-                                        <h5 class="mb-0">Security</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
-                                        <img class="img-fluid" src="img/icon/icon-10.png" alt="Icon">
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="text-primary mb-2">Quality</p>
-                                        <h5 class="mb-0">Services</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
-                                        <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="text-primary mb-2">Smart</p>
-                                        <h5 class="mb-0">Systems</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="btn-square bg-white rounded-circle" style="width: 64px; height: 64px;">
-                                        <img class="img-fluid" src="img/icon/icon-2.png" alt="Icon">
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="text-primary mb-2">24/7 Hours</p>
-                                        <h5 class="mb-0">Support</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Feature End -->
-
-
-    <!-- Projects Start -->
-    <!-- <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
-                <h1 class="display-5 mb-5">Our Projects</h1>
-            </div>
-            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="col-12 text-center">
-                    <ul class="list-inline mb-5" id="portfolio-flters">
-                        <li class="mx-2 active" data-filter="*">All</li>
-                        <li class="mx-2" data-filter=".first">Complete Projects</li>
-                        <li class="mx-2" data-filter=".second">Ongoing Projects</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row g-4 portfolio-container">
-                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="portfolio-inner">
-                        <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
-                        <div class="text-center p-4">
-                            <p class="text-primary mb-2">Business Security</p>
-                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
-                        </div>
-                        <div class="portfolio-text text-center bg-white p-4">
-                            <p class="text-primary mb-2">Business Security</p>
-                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="portfolio-inner">
-                        <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
-                        <div class="text-center p-4">
-                            <p class="text-primary mb-2">Fire Detection</p>
-                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
-                        </div>
-                        <div class="portfolio-text text-center bg-white p-4">
-                            <p class="text-primary mb-2">Fire Detection</p>
-                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="portfolio-inner">
-                        <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
-                        <div class="text-center p-4">
-                            <p class="text-primary mb-2">Access Control</p>
-                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
-                        </div>
-                        <div class="portfolio-text text-center bg-white p-4">
-                            <p class="text-primary mb-2">Access Control</p>
-                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="portfolio-inner">
-                        <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
-                        <div class="text-center p-4">
-                            <p class="text-primary mb-2">Alarm Systems</p>
-                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
-                        </div>
-                        <div class="portfolio-text text-center bg-white p-4">
-                            <p class="text-primary mb-2">Alarm Systems</p>
-                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="portfolio-inner">
-                        <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
-                        <div class="text-center p-4">
-                            <p class="text-primary mb-2">CCTV & Video</p>
-                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
-                        </div>
-                        <div class="portfolio-text text-center bg-white p-4">
-                            <p class="text-primary mb-2">CCTV & Video</p>
-                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="portfolio-inner">
-                        <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
-                        <div class="text-center p-4">
-                            <p class="text-primary mb-2">Smart Home</p>
-                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
-                        </div>
-                        <div class="portfolio-text text-center bg-white p-4">
-                            <p class="text-primary mb-2">Smart Home</p>
-                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Projects End -->
-
-
-    <!-- Quote Start -->
-    <!-- <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
-        <div class="container quote px-lg-0">
-            <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg" style="object-fit: cover;" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 pe-lg-0">
-                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
-                        <h1 class="display-5 mb-5">Free Quote</h1>
-                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <select class="form-select border-0" style="height: 55px;">
-                                        <option selected>Select A Service</option>
-                                        <option value="1">Service 1</option>
-                                        <option value="2">Service 2</option>
-                                        <option value="3">Service 3</option>
-                                    </select>
-                                </div>
-                                <div class="col-12">
-                                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Get A Free Quote</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Quote End -->
-
-
-    <!-- Team Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
-                <h1 class="display-5 mb-5">Results Achieved By Our Members</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <div class="overflow-hidden position-relative">
-                            <img class="img-fluid" src="img/1.jpeg" alt="">
-                            <!-- <div class="team-social">
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div> -->
-                        </div>
-                        <!-- <div class="text-center p-4">
-                            <h5 class="mb-0"></h5>
-                            <span class="text-primary"></span>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item">
-                        <div class="overflow-hidden position-relative">
-                            <img class="img-fluid" src="img/2.jpeg" alt="">
-                            <!-- <div class="team-social">
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div> -->
-                        </div>
-                        <!-- <div class="text-center p-4">
-                            <h5 class="mb-0"></h5>
-                            <span class="text-primary"></span>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item">
-                        <div class="overflow-hidden position-relative">
-                            <img class="img-fluid" src="img/3.jpeg" alt="">
-                            <!-- <div class="team-social">
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div> -->
-                        </div>
-                        <!-- <div class="text-center p-4">
-                            <h5 class="mb-0"></h5>
-                            <span class="text-primary"></span>
-                        </div> -->
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item">
-                        <div class="overflow-hidden position-relative">
-                            <img class="img-fluid" src="img/4.jpeg" alt="">
-                            <!-- <div class="team-social">
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a> -->
-                        </div>
-                    </div>
-                    <div class="text-center p-4">
-                        <h5 class="mb-0"></h5>
-                        <span class="text-primary"></span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    </div>
-    <div class="container-xxl py-5">
-        <div class="container">
-            <!-- <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
-                <h1 class="display-5 mb-5">Results Achieved By Our Members</h1>
-            </div> -->
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <div class="overflow-hidden position-relative">
-                            <img class="img-fluid" src="img/5.jpeg" alt="">
-                            <!-- <div class="team-social">
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item">
-                        <div class="overflow-hidden position-relative">
-                            <img class="img-fluid" src="img/6.jpeg" alt="">
-                            <!-- <div class="team-social">
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-dark rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
-
-
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
-                <h1 class="display-5 mb-5">Testimonials</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                <div class="testimonial-item text-center"
-                    data-dot="<img class='img-fluid' src='img/avatar.png' alt=''>">
-                    <p class="fs-5">I was struggling to gain profit in trading. But after a few months of joining BS
-                        Stocks, I'm now confidently trading in my niche.</p>
-                    <h4>Karan Chauhan</h4>
-                    <span class="text-primary">Haryana</span>
-                </div>
-                <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='img/man.png' alt=''>">
-                    <p class="fs-5">Discipline and Accuracy. That's what I've learned from this amazing community of BS
-                        Stocks. Join them and you'll see the results yourself.</p>
-                    <h4>Neeraj Nagar</h4>
-                    <span class="text-primary">Bihar</span>
-                </div>
-                <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='img/woman.png' alt=''>">
-                    <p class="fs-5">After joining Option Tips, I feel more confident than ever in picking the best
-                        profitable stocks. Thanks to thorough guidance provided by BS Stocks!</p>
-                    <h4>Sonali Dutt</h4>
-                    <span class="text-primary">Maharashtra</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
-
-
-    <!-- Footer Start -->
-    <!-- <div class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Address</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Services</h5>
-                    <a class="btn btn-link" href="">Business Security</a>
-                    <a class="btn btn-link" href="">Fire Detection</a>
-                    <a class="btn btn-link" href="">Alarm Systems</a>
-                    <a class="btn btn-link" href="">CCTV & Video</a>
-                    <a class="btn btn-link" href="">Smart Home</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Newsletter</h5>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative w-100">
-                        <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Footer End -->
-
-
-    <!-- Copyright Start -->
-    <!-- <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support.
-                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br>Distributed By <a class="border-bottom" href="https://themewagon.com/" >Themewagon</a>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Copyright End -->
-    <section data-bs-version="5.1" class="footer7 cid-ti9mJUHtwc" once="footers" id="footer7-p">
+  </div>
+  <!-- Navbar Ends-->
 
 
 
+  <script>
+    function Menu(e) {
+      let list = document.querySelector('ul');
+      e.name === 'menu' ? (e.name = "close", list.classList.add('top-[80px]'), list.classList.add('opacity-100')) : (e.name = "menu", list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'))
+    }
+  </script>
 
-
-        <div class="container">
-            <div class="media-container-row align-center mbr-white">
-                <div class="col-12">
-                    <p class="mbr-text mb-0 mbr-fonts-style display-7" style="font-size: 12px;">DISCLAIMER: BS Stocks Is
-                        A Purely Educational Channel, And Our Only Goal Is To Disseminate Knowledge To You For Better
-                        Results. Our educational module directly contributes to the trading ideas that we share on our
-                        Telegram channel. We Strongly Recommend That You Double-Check The Data We Shared And Only Make
-                        Educated Trades. We Also Strongly Suggest That You Consult Your Financial Advisor Before
-                        Executing A Trade By Giving Us Any Information. I'm not a SEBI-registered analyst, however we
-                        kindly ask that you be aware of all the risks involved in trading before making any decisions.
-                        Your Profit or Loss Is Not Our Responsibility.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
-            class="bi bi-arrow-up"></i></a>
-
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.tab-a').click(function () {
+        $(".tab").removeClass('tab-active');
+        $(".tab[data-id='" + $(this).attr('data-id') + "']").addClass("tab-active");
+        $(".tab-a").removeClass('active-a');
+        $(this).parent().find(".tab-a").addClass('active-a');
+      });
+    });
+  </script>
 </body>
+
+</html>
 
 </html>
