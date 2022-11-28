@@ -1,6 +1,6 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 .tab{
 	height: auto;
@@ -24,8 +24,8 @@
 	color: #ffffff;
 }
 .tab{
-	display: none;
+	display: none !important;
 }
 .tab-active{
-	display: block;
+	display: block !important;
 }
